@@ -1,0 +1,317 @@
+﻿  project4_main.cpp
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(267): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Employee
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(284): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(321): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(267): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(254): note: while compiling class template member function 'RetCode LinkedList<Employee>::searchNode(T)'
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\videostore.h(118): note: see reference to function template instantiation 'RetCode LinkedList<Employee>::searchNode(T)' being compiled
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\company.h(25): note: see reference to class template instantiation 'LinkedList<Employee>' being compiled
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(278): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Employee
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(306): note: could be 'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(278): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Employee
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(315): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const char [1]' (or there is no acceptable conversion)
+  c:\users\npham\desktop\code\np_project4\project4\employee.h(51): note: could be 'Employee &Employee::operator =(Employee &&)'
+  c:\users\npham\desktop\code\np_project4\project4\employee.h(51): note: or       'Employee &Employee::operator =(const Employee &)'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(315): note: while trying to match the argument list '(T, const char [1])'
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(307): note: while compiling class template member function 'T LinkedList<T>::getNode(T)'
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\videostore.h(157): note: see reference to function template instantiation 'T LinkedList<T>::getNode(T)' being compiled
+          with
+          [
+              T=Employee
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(318): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Employee
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(284): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(321): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(318): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Employee
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(329): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Employee
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(306): note: could be 'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(329): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Employee
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(343): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const char [1]' (or there is no acceptable conversion)
+  c:\users\npham\desktop\code\np_project4\project4\employee.h(51): note: could be 'Employee &Employee::operator =(Employee &&)'
+  c:\users\npham\desktop\code\np_project4\project4\employee.h(51): note: or       'Employee &Employee::operator =(const Employee &)'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(343): note: while trying to match the argument list '(T, const char [1])'
+          with
+          [
+              T=Employee
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(178): error C2678: binary '<': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Employee
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(319): note: could be 'bool std::operator <(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(312): note: or       'bool std::operator <(const std::error_code &,const std::error_code &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(178): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(154): note: while compiling class template member function 'void LinkedList<Employee>::insertNode(T)'
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\company.h(50): note: see reference to function template instantiation 'void LinkedList<Employee>::insertNode(T)' being compiled
+          with
+          [
+              T=Employee
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(216): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Employee
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(284): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(321): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(216): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(207): note: while compiling class template member function 'void LinkedList<Employee>::deleteNode(T)'
+          with
+          [
+              T=Employee
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\videostore.h(121): note: see reference to function template instantiation 'void LinkedList<Employee>::deleteNode(T)' being compiled
+          with
+          [
+              T=Employee
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(229): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Employee
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(306): note: could be 'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(229): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Employee
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(267): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Film
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(284): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(321): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(267): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Film
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(254): note: while compiling class template member function 'RetCode LinkedList<Film>::searchNode(T)'
+          with
+          [
+              T=Film
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\videostore.h(83): note: see reference to function template instantiation 'RetCode LinkedList<Film>::searchNode(T)' being compiled
+          with
+          [
+              T=Film
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\videostore.h(21): note: see reference to class template instantiation 'LinkedList<Film>' being compiled
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(278): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Film
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(306): note: could be 'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(278): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Film
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(318): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Film
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(284): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(321): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(318): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Film
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(329): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Film
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(306): note: could be 'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(329): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Film
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(178): error C2678: binary '<': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Film
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(319): note: could be 'bool std::operator <(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(312): note: or       'bool std::operator <(const std::error_code &,const std::error_code &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(178): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Film
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(154): note: while compiling class template member function 'void LinkedList<Film>::insertNode(T)'
+          with
+          [
+              T=Film
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\videostore.h(54): note: see reference to function template instantiation 'void LinkedList<Film>::insertNode(T)' being compiled
+          with
+          [
+              T=Film
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(216): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Film
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(284): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(321): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(216): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Film
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(207): note: while compiling class template member function 'void LinkedList<Film>::deleteNode(T)'
+          with
+          [
+              T=Film
+          ]
+  c:\users\npham\desktop\code\np_project4\project4\videostore.h(86): note: see reference to function template instantiation 'void LinkedList<Film>::deleteNode(T)' being compiled
+          with
+          [
+              T=Film
+          ]
+c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(229): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Film
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(306): note: could be 'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\npham\desktop\code\np_project4\project4\template_linked_list.h(229): note: while trying to match the argument list '(T, T)'
+          with
+          [
+              T=Film
+          ]
