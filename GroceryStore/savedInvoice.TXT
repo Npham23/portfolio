@@ -1,0 +1,101 @@
+
+2021/12/17 02:21:39
+
+#########################################################################
+	Walkart
+Customer: Nathan Pham
+In Cart: 20
+Quantity	ID	Product name		Price		
+10               1             Apple		$0.99
+Applied 10% discount	Total item price:	$0.99
+
+10               9          Raw Tuna		$21.99
+Applied 10% discount	Total item price:	$21.99
+
+				      SUBTOTAL: $196.48
+					   TAX: $11.79
+				     ****TOTAL: $208.27
+
+
+THANK YOU FOR SHOPPING WITH WALKART, HAVE A NICE DAY!
+
+2021/12/17 02:25:01
+
+#########################################################################
+	Walkart
+Customer: Nathan Pham
+In Cart: 40
+Quantity	ID	Product name		Price		
+10               1             Apple		$0.99
+Applied 10% discount	Total item price:	$0.99
+
+10               2              Pear		$0.50
+Applied 10% discount	Total item price:	$0.50
+
+10               4            Orange		$1.20
+Applied 10% discount	Total item price:	$1.20
+
+10               9          Raw Tuna		$21.99
+Applied 10% discount	Total item price:	$21.99
+
+				      SUBTOTAL: $222.12
+					   TAX: $12.66
+				     ****TOTAL: $223.67
+
+
+THANK YOU FOR SHOPPING WITH WALKART, HAVE A NICE DAY!
+
+
+2021/12/17 02:27:53
+
+#########################################################################
+	Walkart
+Customer: Nathan Pham
+In Cart: 35
+Quantity	ID	Product name		Price		
+15               3            Banana		$0.57
+Applied 10% discount	Total item price:	$7.69
+
+5                5             Grape		$2.99
+			      Total item price: $2.99
+
+5                8       Potato Chip		$0.99
+			      Total item price: $0.99
+
+10              10         Shark Fin		$799.99
+Applied 10% discount	Total item price:	$7199.91
+
+				      SUBTOTAL: $7262.07
+					   TAX: $411.06
+				     ****TOTAL: $7262.07
+
+
+THANK YOU FOR SHOPPING WITH WALKART, HAVE A NICE DAY!
+2021/12/17 02:30:58
+
+#########################################################################
+	Walkart
+Customer: Nathan Pham
+In Cart: 70
+Quantity	ID	Product name		Price		
+20               1             Apple		$0.99
+Applied 10% discount	Total item price:	$0.99
+
+10               2              Pear		$0.50
+Applied 10% discount	Total item price:	$0.50
+
+10               4            Orange		$1.20
+Applied 10% discount	Total item price:	$1.20
+
+20               9          Raw Tuna		$21.99
+Applied 10% discount	Total item price:	$21.99
+
+10              10         Shark Fin		$799.99
+Applied 10% discount	Total item price:	$799.99
+
+				      SUBTOTAL: $7628.85
+					   TAX: $434.84
+				     ****TOTAL: $7682.25
+
+
+THANK YOU FOR SHOPPING WITH WALKART, HAVE A NICE DAY!

@@ -1,0 +1,40 @@
+1
+Apple
+$0.99
+A red pomaceous fruit, fully ripen fruit that weighs around 0.5lbs
+2
+Pear
+$0.50
+A green fruit that is sweeter than an apple, very ripe and weighs 0.4lbs
+3
+Banana
+$0.57
+A bundle of 7, a long yellow fruit, weighing 1.6lbs
+4
+Orange
+$1.20
+An orange fruit that is rich with vitamin C, weighing 0.6lbs
+5
+Grape
+$2.99
+A bag of purple grapes, it's sweet and fresh, weighing 2lbs
+6
+Pizza
+$10.99
+A large cheese pizza, no additional toppings included, weighs around 3lbs
+7
+Bottle Water
+$0.99
+A bottle of water, comes from the very top of Mt. Fuji, weighs 1lb
+8
+Potato Chip
+$0.99
+A bag of yellow cripsy chips, a little salty but tasty, weighs 0.5lbs
+9
+Raw Tuna
+$21.99
+A large raw fish that is kept nicely fresh from Japan and weighs 4lbs
+10
+Shark Fin
+$799.99
+A pair of fresh shark fins that was shipped from the Pacifics, weighs 3lb
