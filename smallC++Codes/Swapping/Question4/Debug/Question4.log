@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\npham\desktop\code\np_finalexam\question4\question4\main.cpp(34): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Question4.vcxproj -> C:\Users\npham\Desktop\code\NP_FinalExam\Question4\Debug\Question4.exe
